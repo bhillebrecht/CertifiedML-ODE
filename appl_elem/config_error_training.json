@@ -1,0 +1,5 @@
+{
+    "epochs" : "20000",
+    "n_phys" : "10000",
+    "w_underestimation": "100"
+}

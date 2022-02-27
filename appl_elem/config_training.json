@@ -1,0 +1,8 @@
+{
+    "epochs" : "5000",
+    "n_phys" : "200",
+    "optimizer" : "adam",
+    "override_loss" : "True",
+    "w_smallt" : "1",
+    "w_larget" : "5"
+}

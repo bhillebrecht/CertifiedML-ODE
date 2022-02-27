@@ -1,0 +1,5 @@
+{
+    "epochs" : "100000",
+    "n_phys" : "25000",
+    "optimizer" : "lbfgs"
+}
