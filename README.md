@@ -1,6 +1,6 @@
 # Certified Physics Informed Neural Network 
 
-Before using the here published code, be aware that the code is published under MIT common license, as found in the LICENSE file enclosed. To quote this work in publications, refer to the CITATION file, therein we kindly ask to consider citing
+Before using the here published code, be aware that the code is published under MIT common license, as found in the LICENSE file enclosed. To use this work in academic publications, we kindly ask to consider citing
 
 **TODO Insert Arxiv Link**
 
