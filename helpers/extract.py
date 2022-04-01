@@ -1,5 +1,10 @@
 ###################################################################################################
-# Copyright (c) 2022 Birgit Hillebrecht
+# (c) 2022 Birgit Hillebrecht
+# 
+# This code has been developed as part of 
+# 	  Certified machine learning: A posteriori error estimation for physics-informed neural networks
+#     https://doi.org/10.48550/arXiv.2203.17055
+# please kindly consider citing this publication when using this code.
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -18,6 +23,7 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
+#
 ###################################################################################################
 
 import os

@@ -2,9 +2,8 @@
 
 Before using the here published code, be aware that the code is published under MIT common license, as found in the LICENSE file enclosed. To use this work in academic publications, we kindly ask to consider citing
 
-**TODO Insert Arxiv Link**
-
-upon use of this code to generate published results. 
+  Certified machine learning: A posteriori error estimation for physics-informed neural networks
+  https://doi.org/10.48550/arXiv.2203.17055
 
 The code provides a standard mean to use certified PINNs for your system, which is goverened by an ODE or PDE. 
 
