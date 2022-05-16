@@ -76,7 +76,7 @@ def Compute_Error(X_data, pinn, K, mu, Lf, deltamean, epsilon, ndim) :
 
         # compute predicted machine learning error and number of required support points
         E_ML = np.exp(Lf * x_item[0,0])*(r0 + (1-np.exp(-x_item[0,0]*Lf))*deltamean/Lf)
-        N_SP[x_index] = min(np.ceil(K*x_item[0,0]**3 / (12*E_ML*epsilon)).astype(int), 10000)
+        N_SP[x_index] = np.ceil(np.sqrt(K*x_item[0,0]**3 / (12*E_ML*epsilon))).astype(int)
 
         # compute prediction of support points
         T_test = np.transpose(np.array([np.linspace(0,x_item[0,0],2*(N_SP[x_index]+1))]))
