@@ -65,7 +65,6 @@ def extract_kpis(create_fun, appl_path, mu_factor,  post_extract_callout):
     # divide data into time and not time to only watch time variables
     t = X_phys[:,0:1]
     nott = X_phys[:, 1:X_phys.shape[1]]
-    acc = X_phys[:,1:2]
 
     # determine mu
     val = tf.squeeze(pinn.f_model(X_phys)**2)
